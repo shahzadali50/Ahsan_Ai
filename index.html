@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal</title>
+</head>
+
+<body>
+    <main>
+        <a class="formModal_btn" href="#form_modal"><i class="fa fa-comments fa-3x" aria-hidden="true"></i></a>
+
+        <div id="form_modal" class="form-modal">
+            <div class="content">
+                <div class="top-content">
+                    <h1>AHSAN AI</h1>
+                    <div style="text-align: center">
+                        <img src="chat-image.svg" alt="" style="width: 50px" />
+                    </div>
+                    <p>Our bots answers instantly</p>
+                </div>
+                <div>
+                    <form action="" class="chat_form">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Enter Your Name" required />
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Enter Your Email" required />
+                        <button type="submit">Submit</button>
+                        <a href="#chat_modal">chat</a>
+                        <p style="text-align: center; color: gray">Powered by AHSAN AI</p>
+                    </form>
+                </div>
+
+                <a href="#" class="modal__close"><i class="fa fa-times fa-1x" aria-hidden="true"
+                        style="color: white"></i></a>
+            </div>
+        </div>
+        <!-- chat-modal -->
+        <div id="chat_modal" class="chat-modal">
+            <div class="content">
+                <div class="top-content">
+                    <h1>AHSAN AI</h1>
+                    <div style="text-align: center">
+                        <img src="chat-image.svg" alt="" style="width: 50px" />
+                    </div>
+                    <p>Powered by AHSAN AI</p>
+                </div>
+                <div style="height: 290px">
+                    <div class="chat-content scrollbar">
+                        <div class="left-div">
+                            <div class="chat-bubble">
+                                <p>
+                                    i am webdeveloper from lahore
+                                    <span> 6:33PM</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="right-div">
+                            <div class="chat-bubble">
+                                <p>
+                                    i am Python developer from lahore
+                                    <span> 6:33PM</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="left-div">
+                            <div class="chat-bubble">
+                                <p>
+                                    i am webdeveloper from lahore
+                                    <span> 6:33PM</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="right-div">
+                            <div class="chat-bubble">
+                                <p>
+                                    i am Python developer from lahore
+                                    <span> 6:33PM</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="left-div">
+                            <div class="chat-bubble">
+                                <p>
+                                    i am webdeveloper from lahore
+                                    <span> 6:33PM</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="right-div">
+                            <div class="chat-bubble">
+                                <p>
+                                    i am Python developer from lahore
+                                    <span> 6:33PM</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                   <form action="">
+                   <div style="display: flex; justify-content: center; padding: 10px 0px;">
+                    <textarea class="type_message scrollbar" name=""  placeholder="Send a Message..."></textarea>
+                    <button class="send-message" type="submit"><img src="send-msg.svg" alt=""></button>
+                   </div>
+                   </form>
+                </div>
+
+                <a href="#" class="modal__close"><i class="fa fa-times fa-1x" aria-hidden="true"
+                        style="color: white"></i></a>
+            </div>
+        </div>
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/jquery-3.5.1.js"></script>
+</body>
+
+</html>
