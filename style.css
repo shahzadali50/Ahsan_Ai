@@ -109,7 +109,7 @@ a.formModal_btn:hover {
   padding: 30px 15px;
   margin: 0px 20px 25px 20px;
   background-color: rgb(245, 245, 249);
-  border-top: 1px solid rgba(139, 136, 136, 0.625);
+  border-top: 1px solid rgba(186, 186, 210, 0.407);
 }
 
 .chat_form input {
@@ -171,6 +171,7 @@ a.formModal_btn:hover {
 .chat-modal .chat-content {
   max-height: 350px;
   overflow: auto;
+  border-top: 1px solid rgba(186, 186, 210, 0.407);
 }
 
 .chat-modal .right-div {
