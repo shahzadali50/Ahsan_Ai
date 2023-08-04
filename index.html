@@ -5,26 +5,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google_font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nanum+Gothic&display=swap"
+        rel="stylesheet">
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- Custom CSS-->
     <link rel="stylesheet" href="style.css" />
-    <title>Modal</title>
+    <title>Bots</title>
 </head>
 
 <body>
     <main>
-        <h1>HI</h1>
-        <a class="formModal_btn" href="#form_modal"><i class="fa fa-comments fa-3x" aria-hidden="true"></i></a>
+        <a class="formModal_btn" href="#form_modal"><img src="message-logo.svg" alt="" style="width: 35px;"></a>
 
         <div id="form_modal" class="form-modal">
             <div class="content">
                 <div class="top-content">
-                    <h1>AHSAN AI</h1>
-                    <div style="text-align: center">
-                        <img src="chat-image.svg" alt="" style="width: 50px" />
+                    <div>
+                        <img src="chat-image.svg" alt="not-Show" />
                     </div>
-                    <p>Our bots answers instantly</p>
+                    <div style="padding-left: 20px;">
+                        <h2>AHSAN AI</h2>
+                        <p>Our Bots Answers Instantly</p>
+                    </div>
                 </div>
                 <div>
                     <form action="" class="chat_form">
@@ -34,25 +40,25 @@
                         <input type="email" placeholder="Enter Your Email" required />
                         <button type="submit">Submit</button>
                         <a href="#chat_modal">chat</a>
-                        <p style="text-align: center; color: gray">Powered by AHSAN AI</p>
                     </form>
                 </div>
 
-                <a href="#" class="modal__close"><i class="fa fa-times fa-1x" aria-hidden="true"
-                        style="color: white"></i></a>
+                <a href="#" class="modal_close"><i class="fa fa-times fa-1x" aria-hidden="true"></i></a>
             </div>
         </div>
         <!-- chat-modal -->
         <div id="chat_modal" class="chat-modal">
             <div class="content">
                 <div class="top-content">
-                    <h1>AHSAN AI</h1>
-                    <div style="text-align: center">
-                        <img src="chat-image.svg" alt="" style="width: 50px" />
+                    <div>
+                        <img src="chat-image.svg" alt="not-Show" />
                     </div>
-                    <p>Powered by AHSAN AI</p>
+                    <div style="padding-left: 20px;">
+                        <h2>Name</h2>
+                        <p>Powered By <span>AHSAN AI</span></p>
+                    </div>
                 </div>
-                <div style="height: 290px">
+                <div style="height: 360px; background-color: rgb(245, 245, 249); margin: 0px 26px;">
                     <div class="chat-content scrollbar">
                         <div class="left-div">
                             <div class="chat-bubble">
@@ -73,7 +79,7 @@
                         <div class="left-div">
                             <div class="chat-bubble">
                                 <p>
-                                    i am webdeveloper from lahore
+                                    Hi !
                                     <span> 6:33PM</span>
                                 </p>
                             </div>
@@ -104,17 +110,17 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                   <form action="">
-                   <div style="display: flex; justify-content: center; padding: 10px 0px;">
-                    <textarea class="type_message scrollbar" name=""  placeholder="Send a Message..."></textarea>
-                    <button class="send-message" type="submit"><img src="send-msg.svg" alt=""></button>
-                   </div>
-                   </form>
+                <div style="background-color:white;">
+                    <form action="">
+                        <div style="display: flex; justify-content: center; padding: 10px 0px;">
+                            <textarea class="type_message scrollbar" name=""
+                                placeholder="Type your message here..."></textarea>
+                            <button class="send-message" type="submit"><img src="send-msg.svg" alt=""></button>
+                        </div>
+                    </form>
                 </div>
 
-                <a href="#" class="modal__close"><i class="fa fa-times fa-1x" aria-hidden="true"
-                        style="color: white"></i></a>
+                <a href="#" class="modal_close"><i class="fa fa-times fa-1x" aria-hidden="true"></i></a>
             </div>
         </div>
     </main>
